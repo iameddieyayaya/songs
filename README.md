@@ -15,4 +15,4 @@ Returns object { type: 'SONG_SELECTED', payload: song }
 
 Combine reducers and setup objects with each song detail.
 
-![Project Screenshot ](/images/final-screenshot.png)
+![Project Screenshot ](/src/images/final-screenshot.png)
