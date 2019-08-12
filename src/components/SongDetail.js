@@ -8,6 +8,7 @@ const SongDetail = ({ songDetail }) => {
   if (!songDetail) {
     return <div>Select a song</div>;
   }
+
   return (
     <div>
       <h3>Details for: </h3>
@@ -15,6 +16,13 @@ const SongDetail = ({ songDetail }) => {
         Title: {songDetail.title}
         <br />
         Duration: {songDetail.duration}
+        <br />
+        Album:{songDetail.album} <br />
+        <img
+          src={songDetail.image}
+          alt={songDetail.title}
+          style={{ width: '200px' }}
+        />
       </p>
     </div>
   );

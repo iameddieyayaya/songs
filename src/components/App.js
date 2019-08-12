@@ -4,16 +4,18 @@ import React from 'react';
 import SongList from './SongsList';
 import SongDetail from './SongDetail';
 
+import './App.css';
+
 // import { selectSong } from '../actions/index';
 
 const App = () => {
   return (
-    <div className='ui container grid'>
+    <div className='ui container grid wrapper'>
       <div className='ui row'>
-        <div className='column eight wide'>
+        <div className='column four wide'>
           <SongList />
         </div>
-        <div className='column eight wide'>
+        <div className='column four wide'>
           <SongDetail />
         </div>
       </div>
